@@ -4,6 +4,8 @@
     import { fly } from 'svelte/transition';
     import { slide } from 'svelte/transition';
 	let commentsOpen = false;
+
+    export let article;
 </script>
 
 <div class="container relative p-4 m-auto max-w-screen-md">
@@ -22,6 +24,7 @@
             <div>
                 <p>Rodrigo González (copiado de CIPER, solo usado para dev)</p>
                 <p>2 de Mayo, 2022</p>
+                <p>#{article.id}</p>
             </div>
         </header>
 
