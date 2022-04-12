@@ -20,7 +20,7 @@
                 <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/Protestas_en_Chile_20191022_06.jpg" />
                 <small class="portada-caption"><a href="https://commons.wikimedia.org/wiki/File:Protestas_en_Chile_20191022_06.jpg">Carlos Figueroa</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons</small>
             </div>
-            <h1>Formemos un Chile socialdemocrata desde las bases</h1>
+            <h1>Formemos un Chile socialdemocrata desde las bases-</h1>
             <div>
                 <p>Rodrigo González (copiado de CIPER, solo usado para dev)</p>
                 <p>2 de Mayo, 2022</p>

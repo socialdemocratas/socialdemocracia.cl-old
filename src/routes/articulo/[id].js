@@ -1,12 +1,12 @@
 
 export async function get({ cf, params, platform }) {
 
-    let result = await platform.env.ARTICLES.list('test');
+    const result = await platform.env.ARTICLES.list({"prefix": 't'});
 
     return {
         body: {
             article: {
-                id: JSON.stringify(result)
+                id: JSON.stringify(result.keys)
             }
         }
     }
