@@ -1,7 +1,7 @@
 
 export async function get({ cf, params, platform }) {
 
-    //platform.env.ARTICLES.
+    await platform.env.ARTICLES.put('test', 'hola');
 
     return {
         body: {
