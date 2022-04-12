@@ -6,7 +6,7 @@ export async function get({ cf, params, platform }) {
     return {
         body: {
             article: {
-                id: JSON.stringify(result.keys)
+                id: JSON.stringify(result)
             }
         }
     }
