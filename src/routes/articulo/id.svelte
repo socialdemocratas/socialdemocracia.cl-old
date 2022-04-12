@@ -2,7 +2,7 @@
 
 <script>
     import Article from '$lib/Article.svelte'
-    let imgSrc = "https://www.atota.cl/wp-content/uploads/2019/03/plaza-colon-portada.jpg"
+    let imgSrc = "https://upload.wikimedia.org/wikipedia/commons/3/31/Protestas_en_Chile_20191022_06.jpg"
     //"https://laventanaciudadana.cl/wp-content/uploads/2019/04/estatua-justicia-737x415.jpg" //"http://192.168.1.85:3000/src/assets/opinion.jpg"
 </script>
 

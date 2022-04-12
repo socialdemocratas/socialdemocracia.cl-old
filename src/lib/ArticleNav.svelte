@@ -16,7 +16,7 @@ function onClickShare() {
 }
 
 </script>
-<nav class="sticky bottom-1 m-auto">
+<nav class="sticky bottom-1 m-auto mt-14">
     <div class="flex flex-row justify-center">
         <button class="btn-action rounded-tl-1 rounded-bl-1" on:click={onClickSave}>
             <svg

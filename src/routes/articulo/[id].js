@@ -1,9 +1,12 @@
 
-export async function get({ params }) {
+export async function get({ cf, params, platform }) {
+
+    //platform.env.ARTICLES.
+
     return {
         body: {
             article: {
-                id: params.id
+                id: JSON.stringify(platform)
             }
         }
     }

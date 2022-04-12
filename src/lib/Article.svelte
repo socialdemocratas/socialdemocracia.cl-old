@@ -34,8 +34,8 @@
             <p>{publised_at}</p>
         </div>
     </header>
-    <div class="container p-3 pr-12" style="font-family: Montserrat, 'Source Serif Pro';">
-        <h1 class="text-3xl font-semibold" style="margin-top: -100px;font-family: 'Lora';">{title}</h1>
+    <div class="container p-3 pr-12" style="font-family: Cabin, 'Source Serif Pro';">
+        <h1 class="text-3xl" style="margin-top: -100px;font-weight: 700;font-family: 'Roboto Condensed';">{title}</h1>
         {#if $$slots.abstract}
         <div class="abstract"><slot name="abstract" /></div>
         {/if}
